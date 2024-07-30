@@ -12,6 +12,9 @@ body,html{
     text-align: center;
     scroll-behavior: smooth;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
 
 #parentContainer{
     background-color: #df6d4d;
